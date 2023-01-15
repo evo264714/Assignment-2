@@ -97,16 +97,77 @@ img {
     font-size: 45px;
     margin-bottom: 20px;
 }
-.first-words{
+
+.first-words {
     color: #727272;
     font-weight: 500;
 }
-.second-words{
+
+.second-words {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
 }
-.features-description{
+
+.features-description {
     color: #727272;
     margin-bottom: 20px;
+}
+
+/* Features we love with an Image */
+.loved-features-container {
+    display: flex;
+    padding: 150px;
+    align-items: center;
+}
+
+
+.vl {
+    border-left: 4px solid #FF900E;
+    height: 100px;
+}
+
+
+.loved-features-description {
+    display: flex;
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.loved-features-title {
+    margin-bottom: 24px;
+}
+
+.loved-features-para {
+    margin-bottom: 30px;
+    width: 60%;
+    font-size: 16px;
+    color: #727272;
+}
+
+.loved-features-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 50%;
+
+}
+
+.features-item {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    
+}
+.item-title{
+    font-size: 20px;
+    color: #131313;
+    padding: 10px;
+}
+.item-description{
+    font-size: 16px;
+    color: #727272;
+    padding: 10px;
 }

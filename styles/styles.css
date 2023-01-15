@@ -262,6 +262,33 @@ img {
     font-size: 20px;
 }
 
+/* Bonus Section */
+
+.bonus-section {
+    margin: 20px;
+}
+
+.bonus-section-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #FF900E;
+    font-size: 2em;
+}
+
+.bonus-items-all {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bonus-item {
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid orange;
+    box-shadow: 5px 7px #ddcdcd;
+}
+
 /* SPONSORS STYLES */
 
 .sponsors-title {
@@ -385,7 +412,20 @@ img {
     .achievement img {
         padding: 0;
     }
-    .sponsors{
+
+    .bonus-section-title {
+        font-size: 2em;
+    }
+
+    .bonus-items-all {
+        flex-direction: column;
+    }
+
+    .bonus-item {
+        width: 100%;
+    }
+
+    .sponsors {
         gap: 20px;
     }
 

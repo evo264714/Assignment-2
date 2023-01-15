@@ -297,6 +297,7 @@ img {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .sponsors-description {
@@ -427,6 +428,13 @@ img {
 
     .sponsors {
         gap: 20px;
+    }
+    .footer{
+        margin: 20px;
+        
+    }
+    .footer-description{
+        padding: 20px;
     }
 
 }
